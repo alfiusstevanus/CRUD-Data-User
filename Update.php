@@ -11,7 +11,7 @@
     <link rel="icon" href="icon/home.png" type="image/png">
 
 </head>
-
+//update
 <body>
     <?php $id = $_GET["user_id"]; ?>
 
