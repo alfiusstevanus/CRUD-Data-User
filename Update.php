@@ -37,7 +37,7 @@
             <br>
             <span>
                 <button name="button" type="submit" class="contoh btn btn-success">UPDATE</button>
-                <a class=" btn btn-secondary mr-10" href="welcome.php" role="button">Kembali</a>
+                <a class=" btn btn-secondary mr-10" href="index.php" role="button">Kembali</a>
             </span>
         </form>
     </div>

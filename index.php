@@ -79,7 +79,7 @@ if (isset($_GET['logout'])) {
         </table>
         <br>
         <div id="center">
-            <a class="btn btn-danger" href="welcome.php?logout=3" role="button">Log out</a>
+            <a class="btn btn-danger" href="index.php?logout=3" role="button">Log out</a>
         </div>
     </div>
 </body>

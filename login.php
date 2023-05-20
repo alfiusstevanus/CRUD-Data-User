@@ -3,7 +3,7 @@
 session_start();
 include('server/connection.php');
 if (isset($_SESSION['logged_in'])) {
-    header('location: welcome.php');
+    header('location: index.php');
     exit;
 }
 if (isset($_POST['register_btn'])) {
@@ -50,7 +50,7 @@ if (isset($_POST['login_btn'])) {
             $_SESSION['user_photo'] = $user_photo;
             $_SESSION['logged_in'] = true;
 
-            header('location: welcome.php?message=Logged in succesfully');
+            header('location: index.php?message=Logged in succesfully');
         } else {
             header('location: login.php?error=Could not verify your account!');
         }
